@@ -5,8 +5,8 @@ def main():
     # Conecte-se ao banco de dados MongoDB
     try:
         client = MongoClient("localhost", 27017)
-        database = client["nome_do_seu_banco"]
-        collection = database["nome_da_sua_colecao"]
+        database = client["Blibioteca"]
+        collection = database["Livros"]
         livro_model = LivroSchema(collection)
         print("Conexão com o banco de dados estabelecida com sucesso!")
     except Exception as e:
