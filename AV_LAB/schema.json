@@ -1,0 +1,300 @@
+{
+  "count": 2,
+  "fields": [
+    {
+      "name": "_id",
+      "path": [
+        "_id"
+      ],
+      "count": 2,
+      "type": "ObjectId",
+      "probability": 1,
+      "hasDuplicates": false,
+      "types": [
+        {
+          "name": "ObjectId",
+          "path": [
+            "_id"
+          ],
+          "count": 2,
+          "probability": 1,
+          "unique": 2,
+          "hasDuplicates": false,
+          "values": [
+            "661c7ea4ba708f60a6ede076",
+            "661c7f2eba708f60a6ede077"
+          ],
+          "bsonType": "ObjectId"
+        }
+      ]
+    },
+    {
+      "name": "corridas",
+      "path": [
+        "corridas"
+      ],
+      "count": 2,
+      "type": "Array",
+      "probability": 1,
+      "hasDuplicates": false,
+      "types": [
+        {
+          "name": "Array",
+          "path": [
+            "corridas"
+          ],
+          "count": 2,
+          "probability": 1,
+          "bsonType": "Array",
+          "types": [
+            {
+              "name": "Document",
+              "path": [
+                "corridas"
+              ],
+              "count": 2,
+              "probability": 1,
+              "bsonType": "Document",
+              "fields": [
+                {
+                  "name": "distancia",
+                  "path": [
+                    "corridas",
+                    "distancia"
+                  ],
+                  "count": 2,
+                  "type": "Double",
+                  "probability": 1,
+                  "hasDuplicates": false,
+                  "types": [
+                    {
+                      "name": "Double",
+                      "path": [
+                        "corridas",
+                        "distancia"
+                      ],
+                      "count": 2,
+                      "probability": 1,
+                      "unique": 2,
+                      "hasDuplicates": false,
+                      "values": [
+                        34,
+                        40
+                      ],
+                      "bsonType": "Double"
+                    }
+                  ]
+                },
+                {
+                  "name": "nota",
+                  "path": [
+                    "corridas",
+                    "nota"
+                  ],
+                  "count": 2,
+                  "type": "Int32",
+                  "probability": 1,
+                  "hasDuplicates": false,
+                  "types": [
+                    {
+                      "name": "Int32",
+                      "path": [
+                        "corridas",
+                        "nota"
+                      ],
+                      "count": 2,
+                      "probability": 1,
+                      "unique": 2,
+                      "hasDuplicates": false,
+                      "values": [
+                        7,
+                        10
+                      ],
+                      "bsonType": "Int32"
+                    }
+                  ]
+                },
+                {
+                  "name": "passageiro",
+                  "path": [
+                    "corridas",
+                    "passageiro"
+                  ],
+                  "count": 2,
+                  "type": "Document",
+                  "probability": 1,
+                  "hasDuplicates": false,
+                  "types": [
+                    {
+                      "name": "Document",
+                      "path": [
+                        "corridas",
+                        "passageiro"
+                      ],
+                      "count": 2,
+                      "probability": 1,
+                      "bsonType": "Document",
+                      "fields": [
+                        {
+                          "name": "documento",
+                          "path": [
+                            "corridas",
+                            "passageiro",
+                            "documento"
+                          ],
+                          "count": 2,
+                          "type": "String",
+                          "probability": 1,
+                          "hasDuplicates": false,
+                          "types": [
+                            {
+                              "name": "String",
+                              "path": [
+                                "corridas",
+                                "passageiro",
+                                "documento"
+                              ],
+                              "count": 2,
+                              "probability": 1,
+                              "unique": 2,
+                              "hasDuplicates": false,
+                              "values": [
+                                "32332",
+                                "333333"
+                              ],
+                              "bsonType": "String"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "nome",
+                          "path": [
+                            "corridas",
+                            "passageiro",
+                            "nome"
+                          ],
+                          "count": 2,
+                          "type": "String",
+                          "probability": 1,
+                          "hasDuplicates": false,
+                          "types": [
+                            {
+                              "name": "String",
+                              "path": [
+                                "corridas",
+                                "passageiro",
+                                "nome"
+                              ],
+                              "count": 2,
+                              "probability": 1,
+                              "unique": 2,
+                              "hasDuplicates": false,
+                              "values": [
+                                "lucas",
+                                "carlos"
+                              ],
+                              "bsonType": "String"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "valor",
+                  "path": [
+                    "corridas",
+                    "valor"
+                  ],
+                  "count": 2,
+                  "type": "Double",
+                  "probability": 1,
+                  "hasDuplicates": false,
+                  "types": [
+                    {
+                      "name": "Double",
+                      "path": [
+                        "corridas",
+                        "valor"
+                      ],
+                      "count": 2,
+                      "probability": 1,
+                      "unique": 2,
+                      "hasDuplicates": false,
+                      "values": [
+                        34,
+                        60
+                      ],
+                      "bsonType": "Double"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "totalCount": 2,
+          "lengths": [
+            1,
+            1
+          ],
+          "averageLength": 1
+        }
+      ]
+    },
+    {
+      "name": "nome",
+      "path": [
+        "nome"
+      ],
+      "count": 2,
+      "type": "String",
+      "probability": 1,
+      "hasDuplicates": false,
+      "types": [
+        {
+          "name": "String",
+          "path": [
+            "nome"
+          ],
+          "count": 2,
+          "probability": 1,
+          "unique": 2,
+          "hasDuplicates": false,
+          "values": [
+            "joao",
+            "galo"
+          ],
+          "bsonType": "String"
+        }
+      ]
+    },
+    {
+      "name": "nota",
+      "path": [
+        "nota"
+      ],
+      "count": 2,
+      "type": "Double",
+      "probability": 1,
+      "hasDuplicates": false,
+      "types": [
+        {
+          "name": "Double",
+          "path": [
+            "nota"
+          ],
+          "count": 2,
+          "probability": 1,
+          "unique": 2,
+          "hasDuplicates": false,
+          "values": [
+            3,
+            10
+          ],
+          "bsonType": "Double"
+        }
+      ]
+    }
+  ]
+}
